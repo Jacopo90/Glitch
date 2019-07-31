@@ -1,37 +1,54 @@
-Welcome to Glitch
-=================
+# Your First Progressive Web App Codelab
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+These are the resource files needed for the
+[Your First Progressive Web App][codelab] codelab.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+In this codelab, you'll  build a weather web app using Progressive Web App
+techniques. Your app will:
 
-Find out more [about Glitch](https://glitch.com/about).
+* Use responsive design, so it works on desktop or mobile.
+* Be fast & reliable, using a service worker to precache the app resources
+  (HTML, CSS, JavaScript, images) needed to run, and cache the weather data
+  at runtime to improve performance.
+* Be installable, using a web app manifest and the `beforeinstallprompt` event
+  to notify the user it's installable.
 
 
-Your Project
-------------
+## What you'll learn
 
-### ← README.md
+* How to create and add a web app manifest
+* How to provide a simple offline experience
+* How to provide a full offline experience
+* How to make your app installable
 
-That's this file, where you can tell people what your cool website does and how you built it.
+## Getting started
 
-### ← index.html
+To get started, check out the [codelab instruction][codelab]
 
-Where you'll write the content of your website. 
 
-### ← style.css
+## Feedback
 
-CSS files add styling rules to your content.
+This is a work in progress, if you find a mistake, please [file an issue][git-issue].
 
-### ← script.js
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
+## License
 
-### ← assets
+Copyright 2019 Google, Inc.
 
-Drag in `assets`, like images or music, to add them to your project
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements. See the NOTICE file distributed with this work for
+additional information regarding copyright ownership. The ASF licenses this
+file to you under the Apache License, Version 2.0 (the “License”); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
 
-Made by [Glitch](https://glitch.com/)
--------------------
+http://www.apache.org/licenses/LICENSE-2.0
 
-\ ゜o゜)ノ
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+
+[codelab]: https://codelabs.developers.google.com/codelabs/your-first-pwapp/
+[git-issue]: https://github.com/googlecodelabs/your-first-pwapp/issues
